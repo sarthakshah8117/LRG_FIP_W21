@@ -8,11 +8,11 @@ This is a website for the London Referees Group
 - Github
 
 ### Authors
-Project Manager - Sarthak Shah
-Front-End Dev - Liam Yancy
-Back-End Dev - Jaskaran
-Designer - John Wood
-Motion Designer - Sabnit
+1. Project Manager - Sarthak Shah
+2. Front-End Dev - Liam Yancy
+3. Back-End Dev - Jaskaran
+4. Designer - John Wood
+5. Motion Designer - Sabnit
 
 ### Roadmap
  There is currently no roadmap
