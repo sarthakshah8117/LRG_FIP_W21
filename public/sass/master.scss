@@ -1,1 +1,12 @@
+// sass --watch public/sass:public/stylesheets --style compressed
 @import 'modules/_vars.scss';
+@import 'modules/_header.scss';
+@import 'modules/_banner.scss';
+@import 'modules/_index.scss';
+@import 'modules/_about.scss';
+@import 'modules/_contact.scss';
+@import 'modules/_join.scss';
+@import 'modules/_membership.scss';
+@import 'modules/_programs.scss';
+@import 'modules/_services.scss';
+@import 'modules/_footer.scss';

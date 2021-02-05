@@ -1,0 +1,58 @@
+header {
+    font-family: $header-font-family;
+    .navBar {
+        margin: 0 auto;
+        width: 1280px;
+        background-color: lightgray;
+        #topNav {
+            margin: auto;
+            background-color: $alt-bg-colour;
+            height: 80px;
+            nav {
+                text-align: right;
+                padding-top: 10px;
+                ul {
+                    li {
+                    display: inline;
+                    padding-right: 40px;
+                        a {
+                            text-decoration: none;
+                            color: $alt-font-colour;
+                        }
+                        a:hover {
+                            text-decoration: underline;
+                            opacity: 80%;
+                        }
+                    }
+                }
+            }
+        }
+        #logo {
+            background-color: $main-grey;
+            width: 275px;
+            height: 95px;
+            margin-left: 20px;
+        }
+        #logo:hover {
+            cursor: pointer;
+        }
+        #botNav {
+            nav {
+                text-align: right;
+                ul {
+                    li {
+                        display: inline;
+                        padding-right: 40px;
+                        a {
+                            text-decoration: none;
+                            color: $main-font-colour;
+                        }
+                        a:hover {
+                            color: $main-red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
