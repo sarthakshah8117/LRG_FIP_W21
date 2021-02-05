@@ -1,0 +1,19 @@
+.banner {
+    background-color: $alt-bg-colour;
+    height: 530px;
+    position: relative;
+}
+
+.bannerTitle {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: $main-grey;
+    width: 565px;
+    height: 90px;
+    text-align: center;
+    h3 {
+        font-family: $header-font-family;
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,31 @@
+#contactMain {
+    font-family: $main-font-family;
+    width: 1280px;
+    margin: 0 auto;
+    .contactInfoNav {
+        position: relative;
+        .contactHeading {
+            position: absolute;
+            color: $main-red;
+            font-family: $header-font-family;
+        }
+        .contactInfo {
+            position: absolute;
+            color: $main-font-colour;
+            width: 800px;
+            top: 50px;
+        }
+    }
+    .contactForm {
+        position: relative;
+        width: 700px;
+        height: 740px;
+        background-color: $main-grey;
+        margin-top: 300px;
+        h3 {
+            position: absolute;
+            margin: 50%;
+            text-align: center;
+        }
+    }
+}

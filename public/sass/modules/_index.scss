@@ -1,0 +1,30 @@
+#indexMain {
+    font-family: $main-font-family;
+    width: 1280px;
+    margin: 0 auto;
+    #heroImage {
+        background-color: $alt-bg-colour;
+        height: 800px;
+        position: relative;
+    }
+    .indexHeading {
+        color: $main-red;
+        font-family: $header-font-family;
+    }
+    .indexInfo {
+        color: $main-font-colour;
+    }
+    .promoImages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        section {
+            background-color: $alt-bg-colour;
+            height: 365px;
+            width: 365px;
+            .promoImage:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
