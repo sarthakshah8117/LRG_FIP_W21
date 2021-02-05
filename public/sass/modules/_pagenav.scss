@@ -1,0 +1,16 @@
+.pageNav {
+    position: absolute;
+    width: 405px;
+    height: 590px;
+    background-color: lightgray;
+    right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    a {
+        text-decoration: none;
+        color: $main-font-colour;
+    }
+    a:hover {
+        opacity: 80%;
+    }
+}
