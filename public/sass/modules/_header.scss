@@ -5,18 +5,22 @@ header {
         width: 1280px;
         background-color: lightgray;
         #topNav {
-            margin: auto;
             background-color: $alt-bg-colour;
-            height: 80px;
+            height: 10px;
             nav {
-                text-align: right;
+                width: 600px;
+                float: right;
+                text-align: center;
                 padding-top: 10px;
+                background-color: $alt-bg-colour;
+                border-radius: 0 0 0 50px;
                 ul {
                     li {
                     display: inline;
-                    padding-right: 40px;
+                    padding: 0 50px 0 50px;
                         a {
                             text-decoration: none;
+                            text-transform: uppercase;
                             color: $alt-font-colour;
                         }
                         a:hover {
@@ -39,10 +43,11 @@ header {
         #botNav {
             nav {
                 text-align: right;
+                margin-right: 70px;
                 ul {
                     li {
                         display: inline;
-                        padding-right: 40px;
+                        padding: 0 35px 0 35px;
                         a {
                             text-decoration: none;
                             color: $main-font-colour;
