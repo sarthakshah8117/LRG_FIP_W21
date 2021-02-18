@@ -43,16 +43,20 @@ footer {
         }
     }
     .footNav {
-        background-color: $alt-bg-colour;
         height: 80px;
         nav {
+            width: 600px;
+            height: 70px;
+            background-color: $alt-bg-colour;
+            border-radius: 0 50px 0 0;
             ul {
                 padding-top: 25px;
                 li {
                 display: inline;
-                padding-right: 40px;
+                padding: 0 50px 0 50px;
                     a {
                         text-decoration: none;
+                        text-transform: uppercase;
                         color: $alt-font-colour;
                     }
                     a:hover {
@@ -61,6 +65,11 @@ footer {
                     }
                 }
             }
+        }
+        #footBar {
+            background-color: $alt-bg-colour;
+            height: 10px;
+            position: relative;
         }
     }
 }
