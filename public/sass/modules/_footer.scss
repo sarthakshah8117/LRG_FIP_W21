@@ -1,75 +1,113 @@
-footer {
-    font-family: $header-font-family;
-    .footBar {
-        margin: 0 auto;
-        width: 1280px;
-        background-color: lightgray;
-    }
-    #footTitle {
-        text-align: center;
-    }
-    .partnerSection {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        .partners {
+@media screen and (min-width: 100px) and (max-width: 1279px) {
+    footer {
+        font-family: $header-font-family;
+        .footBar {
+            margin: 0 auto;
+            width: 100%;
+            background-color: lightgray;
+        }
+        #footTitle {
+            display: none;
+        }
+        .partnerSection {
+            display: none;
+        }
+        #socials {
+            float: right;
+            margin-top: 30px;
             img {
-                width: 85px;
-                background-color: $alt-bg-colour;
-                border-radius: 40px;
+                margin-right: 10px;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 80%;
+                }
             }
-            img:hover {
-                cursor: pointer;
+        }
+        .footInfo {
+            li {
+                list-style: none;
             }
         }
-    }
-    #socials {
-        float: right;
-        margin-right: 100px;
-        margin-top: 30px;
-        img {
-            padding-left: 30px;
-        }
-        img:hover {
-            cursor: pointer;
+        .footNav {
+            display: none;
         }
     }
-    .footInfo {
-        margin-top: 60px;
-        margin-right: 200px;
-        li {
-            list-style: none;
-            text-align: right;
+}
+
+@media screen and (min-width: 1280px) {
+    footer {
+        font-family: $header-font-family;
+        .footBar {
+            margin: 0 auto;
+            width: 1280px;
+            background-color: lightgray;
         }
-    }
-    .footNav {
-        height: 80px;
-        nav {
-            width: 600px;
-            height: 70px;
-            background-color: $alt-bg-colour;
-            border-radius: 0 50px 0 0;
-            ul {
-                padding-top: 25px;
-                li {
-                display: inline;
-                padding: 0 50px 0 50px;
-                    a {
-                        text-decoration: none;
-                        text-transform: uppercase;
-                        color: $alt-font-colour;
-                    }
-                    a:hover {
-                        text-decoration: underline;
+        #footTitle {
+            text-align: center;
+        }
+        .partnerSection {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .partners {
+                img {
+                    width: 85px;
+                    &:hover {
+                        cursor: pointer;
                         opacity: 80%;
                     }
                 }
             }
         }
-        #footBar {
-            background-color: $alt-bg-colour;
-            height: 10px;
-            position: relative;
+        #socials {
+            float: right;
+            margin-right: 100px;
+            margin-top: 30px;
+            img {
+                padding-left: 30px;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 80%;
+                }
+            }
+        }
+        .footInfo {
+            margin-top: 60px;
+            margin-right: 200px;
+            li {
+                list-style: none;
+                text-align: right;
+            }
+        }
+        .footNav {
+            height: 80px;
+            nav {
+                width: 600px;
+                height: 70px;
+                background-color: $alt-bg-colour;
+                border-radius: 0 50px 0 0;
+                ul {
+                    padding-top: 25px;
+                    li {
+                    display: inline;
+                    padding: 0 50px 0 50px;
+                        a {
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            color: $alt-font-colour;
+                        }
+                        a:hover {
+                            text-decoration: underline;
+                            opacity: 80%;
+                        }
+                    }
+                }
+            }
+            #footBar {
+                background-color: $alt-bg-colour;
+                height: 10px;
+                position: relative;
+            }
         }
     }
 }
