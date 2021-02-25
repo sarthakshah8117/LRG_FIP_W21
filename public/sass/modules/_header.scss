@@ -1,4 +1,64 @@
-header {
+@media screen and (min-width: 100px) and (max-width: 1279px) {
+    header {
+        font-family: $header-font-family;
+        .navBar {
+            margin: 0 auto;
+            width: 100%;
+            background-color: lightgray;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            #topNav {
+                nav {
+                    display: none;
+                }
+            }
+            #logo {
+                width: 116px;
+                padding: 15px 0 0 15px;
+            }
+            .menuNav {
+                position: absolute;
+                background-color: lightgray;
+                display: flex;
+                align-items: center;
+                width: 32px;
+                height: 20px;
+                right: 5%;
+                top: 30px;
+                &:hover {
+                    cursor: pointer;
+                }
+                .menuButton {
+                    width: 32px;
+                    height: 4px;
+                    background-color: $alt-bg-colour;
+                    border-radius: 5px;
+                    &::before, &::after {
+                        content: '';
+                        position: absolute;
+                        width: 32px;
+                        height: 4px;
+                        background-color: $alt-bg-colour;
+                        border-radius: 5px;
+                    }
+                    &::before {
+                        transform: translateY(-8px);
+                    }
+                    &::after {
+                        transform: translateY(8px);
+                    }
+                }
+            }
+            #botNav {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header {
     font-family: $header-font-family;
     .navBar {
         margin: 0 auto;
@@ -32,10 +92,9 @@ header {
             }
         }
         #logo {
-            background-color: $main-grey;
             width: 275px;
             height: 95px;
-            margin-left: 20px;
+            margin: 60px 0 0 30px;
         }
         #logo:hover {
             cursor: pointer;
@@ -61,3 +120,5 @@ header {
         }
     }
 }
+}
+
