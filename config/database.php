@@ -32,7 +32,9 @@ class Database
 
         try {
             $dsn        = 'mysql:' . http_build_query($db_dsn, '', ';');
-            $this->conn = new PDO($dsn, $this->username, $this->password);
+            $con = new PDO($dsn, $this->username, $this->password);
+            $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->conn=$con;
         } catch (PDOException $exception) {
             echo json_encode(
                 array(

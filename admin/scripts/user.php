@@ -56,18 +56,22 @@ function createUser($user_data)
     ## 1. Run the proper SQL query to insert user
     $pdo = Database::getInstance()->getConnection();
 
-    $create_user_query = 'INSERT INTO tbl_user(user_fname, user_name, user_pass, user_email)';
-    $create_user_query .= ' VALUES(:fname, :username, :password, :email)';
+    $create_user_query = 'INSERT INTO tbl_user (user_fname, user_name, user_pass, user_email, last_login, login_success)';
+    $create_user_query .= ' VALUES(:fname, :username, :password, :email, :login, :succ)';
     
     $create_user_set = $pdo->prepare($create_user_query);
-    $create_user_result = $create_user_set->execute(
+   
+	$create_user_result = $create_user_set->execute(
         array(
             ':fname'=>$user_data['fname'],
             ':username'=>$user_data['username'],
             ':password'=>$user_data['password'],
             ':email'=>$user_data['email'],
+			':login'=>date('d-m-Y, h:i a'),
+			':succ'=>1
         )
     );
+
 
     ## 2. Redirect to index.php if create user successfully (*maybe with some message???),
     # otherwise, showing the error message
@@ -86,8 +90,8 @@ function createUser($user_data)
 
 		 # send email with online phpmailer library
 		sendemail(strtolower($user_data['email']),$subject, $message);
-        redirect_to('signIn.php');
+        redirect_to('index.php');
     } else {
-        return 'The user did not go through!!';
+        return 'The user did not go through!! ';
     }
 }

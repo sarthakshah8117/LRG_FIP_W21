@@ -75,7 +75,7 @@ function login($username, $password, $ip)
             $count_login->execute(
                  array(
                         ':username'=>$username,
-                        ':password'=>$password,
+                        // dont add password.
                         ':login_success'=>$_SESSION['success_login']
                     )
                 );
