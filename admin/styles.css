@@ -1,0 +1,25 @@
+*{ margin:0px; }
+.main { max-width:800px;margin:30px auto;} /* center contents on screen */
+.nav a{color:#fff;}
+.maind { width:300px;margin:30px auto;} /* center contents on screen */
+			
+input[type=password],[type=text],[type=email],select,[type=datetime-local]{
+	padding:10px;width:100%;font-family:helvetica; border:1px solid #ccc; /*format all inputs */
+}
+			
+/* format submit button */
+.btn{
+	padding:10px;background:#4682b4;color:#fff;outline:none;cursor:pointer; border:0px; border-radius:5px;
+}
+
+.tbl{
+	min-width:700px;margin:0 auto;border-collapse:collapse;font-family:cambria;
+}
+
+.tr-head{
+	font-weight:bold;background:#e6e6fa;color:#191970;
+}
+
+.nav{
+	background:#008080;height:60px;padding:15px 30px;color:#fff;text-align:center;
+}
