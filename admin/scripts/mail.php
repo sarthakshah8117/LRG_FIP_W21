@@ -13,14 +13,14 @@
 		$mail->SMTPKeepAlive = true;
 		$mail->SMTPDebug = 0;
 		$mail->Debugoutput = 'html';
-		$mail->Host = "mail.mabnets.com";
+		$mail->Host = "mail.jaskaransingh.co.in";
 		$mail->Port = 26;
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'tls';
-		$mail->Username = "m254@mabnets.com";
+		$mail->Username = "info@jaskaransingh.co.in";
 		$mail->Password = "!login.2021";
-		$mail->setFrom("m254@mabnets.com", $from);
-		$mail->addReplyTo("jaskaran_walia25@yahoo.in", "Jaskaran Singh");
+		$mail->setFrom("info@jaskaransingh.co.in", $from);
+		$mail->addReplyTo("info@jaskaransingh.co.in", "Jaskaran Singh");
 		
 		$mail->AddAddress($email);
 		$mail->Subject = $subject;
