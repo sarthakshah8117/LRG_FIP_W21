@@ -1,0 +1,126 @@
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    #aboutMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .aboutInfo1 {
+            h3 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Referee?";
+                color: $main-red;
+            }
+            }
+        }
+        .aboutInfo2 {
+            background-color: lightgray;
+            padding: 10px;
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::after {
+                    content: " Referee?";
+                    color: $main-red;
+                }
+            }
+            h4 {
+                font-family: $header-font-family;
+            }
+        }
+        .aboutInfo3 {
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::before {
+                    content: "Social Media ";
+                    color: $main-red;
+                }
+            }
+        }
+        .socialCampaign {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+                width: 90%;
+                height: auto;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    #aboutMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .aboutInfo1 {
+            h3 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Referee?";
+                color: $main-red;
+            }
+            }
+        }
+        .aboutInfo2 {
+            background-color: lightgray;
+            padding: 10px;
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::after {
+                    content: " Referee?";
+                    color: $main-red;
+                }
+            }
+            h4 {
+                font-family: $header-font-family;
+            }
+        }
+        .aboutInfo3 {
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::before {
+                    content: "Social Media ";
+                    color: $main-red;
+                }
+            }
+        }
+        .socialCampaign {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+                width: 90%;
+                height: auto;
+                margin-top: 30px;
+            }
+        }
+    }
+}

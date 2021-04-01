@@ -1,0 +1,14 @@
+@media screen and (min-width: 100px) and (max-width: 1279px) {
+    .banner {
+        position: relative;
+    }
+    .bannerTitle {
+        font-family: $header-font-family;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: $alt-font-colour;
+        font-size: 20px;
+        padding: 5px 40px 5px 40px;
+    }
+}

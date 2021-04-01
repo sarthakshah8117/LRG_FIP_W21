@@ -1,0 +1,177 @@
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    #indexMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .indexHeading {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " London Referees Group";
+                color: $main-red;
+            }
+        }
+        .indexInfo {
+            color: $main-font-colour;
+        }
+        .promoImages {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .promoImage {
+                position: relative;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 80%;
+                }
+                h3 {
+                    color: $alt-font-colour;
+                    position: absolute;
+                    text-align: center;
+                    top: 40px;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 40%);
+                    padding: 10px 0 10px 0;
+                }
+            }
+        }
+        #aboutButton {
+            margin-bottom: 20px;
+            background-color: $main-bg-colour;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+                background-color: $alt-bg-colour;
+                color: $alt-font-colour;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 5px 20px 5px 20px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $main-red;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    #indexMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .indexHeading {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " London Referees Group";
+                color: $main-red;
+            }
+        }
+        .indexInfo {
+            color: $main-font-colour;
+        }
+        .promoImages {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .promoImage {
+                position: relative;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 80%;
+                }
+                h3 {
+                    color: $alt-font-colour;
+                    position: absolute;
+                    text-align: center;
+                    top: 40px;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 40%);
+                    padding: 10px 0 10px 0;
+                }
+            }
+        }
+        #aboutButton {
+            margin-bottom: 20px;
+            background-color: $main-bg-colour;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+                background-color: $alt-bg-colour;
+                color: $alt-font-colour;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 5px 20px 5px 20px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $main-red;
+                }
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 1280px) {
+//     #indexMain {
+//         font-family: $main-font-family;
+//         width: 1280px;
+//         margin: 0 auto;
+//         #heroImage {
+//             position: relative;
+//         }
+//         .indexHeading {
+//             color: $main-font-colour;
+//             font-family: $header-font-family;
+//             text-align: center;
+//             &::after {
+//                 content: " London Referees Group";
+//                 color: $main-red;
+//             }
+//         }
+//         .indexInfo {
+//             color: $main-font-colour;
+//         }
+//         .promoImages {
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: space-evenly;
+//             flex-wrap: wrap;
+//             .promoImage {
+//                 position: relative;
+//                 &:hover {
+//                     cursor: pointer;
+//                     opacity: 80%;
+//                 }
+//                 h3 {
+//                     color: $alt-font-colour;
+//                     position: absolute;
+//                     text-align: center;
+//                     top: 40px;
+//                     width: 100%;
+//                     background-color: rgba(0, 0, 0, 40%);
+//                     padding: 10px 0 10px 0;
+//                 }
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,23 @@
+$main-font-family: 'Gothic A1', 'arial', sans-serif;
+$header-font-family: 'Oswald', 'Gothic A1', 'arial', sans-serif;
+$main-font-colour: black;
+$alt-font-colour: white;
+$main-bg-colour: white;
+$alt-bg-colour: black;
+$main-red: #ff0000;
+$main-grey: #6c7577;
+
+.hidden { display: none; }
+
+// default text padding
+
+p, h4 {
+    padding: 0 5px 0 5px;
+}
+
+//reset
+
+body {
+    margin: 0;
+    padding: 0;
+}

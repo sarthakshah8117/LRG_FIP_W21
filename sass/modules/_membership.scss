@@ -1,0 +1,47 @@
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    #membershipMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .membershipTitle {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Referee?";
+                color: $main-red;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    #membershipMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .membershipTitle {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Referee?";
+                color: $main-red;
+            }
+        }
+    }
+}
