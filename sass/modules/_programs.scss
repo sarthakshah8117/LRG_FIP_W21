@@ -100,3 +100,55 @@
         }
     }
 }
+
+@media screen and (min-width: 1281px) {
+    #programsMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .programsTitle {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::before {
+                content: "LRG Development ";
+                color: $main-red;
+            }
+        }
+        .programSection {
+            background-color: lightgray;
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::before {
+                    content: "Junior Officials Development ";
+                    color: $main-red;
+                }   
+            }
+            img {
+                margin: 0 20% 0 20%;
+                width: 60%;
+                height: auto;
+            }
+        }
+        .testimonials {
+            h3 {
+                color: $main-font-colour;
+                font-family: $header-font-family;
+                text-align: center;
+                &::before {
+                    content: "Testimonials ";
+                    color: $main-red;
+                }   
+            }
+        }
+    }
+}

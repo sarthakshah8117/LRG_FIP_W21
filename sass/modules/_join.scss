@@ -130,3 +130,70 @@
         }
     }
 }
+
+@media screen and (min-width: 1281px) {
+    #joinMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .joinTitle {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Officials";
+                color: $main-red;
+            }
+        }
+        #joinButton {
+            margin-bottom: 20px;
+            background-color: $main-bg-colour;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+                background-color: $alt-bg-colour;
+                color: $alt-font-colour;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 5px 20px 5px 20px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $main-red;
+                }
+            }
+        }
+        .joinTitle2 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Started";
+                color: $main-red;
+            }
+        }
+        .joinButtons {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .joinSections {
+                width: 95%;
+                margin: 0 2.5% 20px;
+                padding: 10px 0 10px 0;
+                background-color: $main-bg-colour;
+                border: 1px solid black;
+                &:hover {
+                    cursor: pointer;
+                    background-color: lightgray;
+                }
+            }
+        }
+    }
+}

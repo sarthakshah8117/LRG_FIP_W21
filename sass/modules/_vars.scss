@@ -9,15 +9,25 @@ $main-grey: #6c7577;
 
 .hidden { display: none; }
 
-// default text padding
-
-p, h4 {
-    padding: 0 5px 0 5px;
-}
-
 //reset
-
 body {
     margin: 0;
     padding: 0;
+}
+
+// default text padding
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    p, h4 {
+        padding: 0 5px 0 5px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    p, h4 {
+        padding: 0 20px 0 20px;
+    }
+}
+@media screen and (min-width: 1281px) {
+    p, h4 {
+        padding: 0 60px 0 60px;
+    }
 }

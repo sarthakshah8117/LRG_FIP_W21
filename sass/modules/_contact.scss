@@ -130,3 +130,69 @@
         }
     }
 }
+@media screen and (min-width: 1281px) {
+    #contactMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .infoTitle {
+            font-family: $header-font-family;
+            color: $main-red;
+            text-align: center;
+        }
+        .contactInfo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            section {
+                display: inline;
+            }
+            img {
+                width: 50%;
+                height: 100%;
+            }
+        }
+        .contactTitle {
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Inquiries";
+                color: $main-red;
+            }
+        }
+        #mail-form {
+            margin: 0 5% 0 5%;
+            input {
+                margin-bottom: 20px;
+                padding: 10px;
+                width: 90%;
+            }
+            textarea {
+                font-family: $main-font-family;
+                max-width: 95%;
+                min-width: 95%;
+                min-height: 150px;
+                max-height: 150px;
+            }
+            .submit {
+                margin: 20px 35% 0 35%;
+                width: 30%;
+                padding: 10px;
+                background-color: $alt-bg-colour;
+                color: $alt-font-colour;
+                border-style: none;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 80%;
+                }
+            }
+        }
+    }
+}

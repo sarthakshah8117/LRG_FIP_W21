@@ -45,3 +45,27 @@
         }
     }
 }
+
+@media screen and (min-width: 1281px) {
+    #membershipMain {
+        font-family: $main-font-family;
+        width: 100%;
+        margin: 0 auto;
+        #heroImage {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .membershipTitle {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Referee?";
+                color: $main-red;
+            }
+        }
+    }
+}
