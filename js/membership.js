@@ -11,9 +11,10 @@ import Users from "./modules/TheUsersList.js";
         mounted: function() {
             console.log("Vue is mounted, trying a fetch for the initial data");
             
-            fetchData("./includes/admin/index.php")
+                fetchData("./includes/admin/index.php")
                 .then(data => {
                     data.forEach(tbl_user => this.usersList.push(tbl_user));
+                    console.log('testing',data);
                 })
                 .catch(err => console.error(err));
         },

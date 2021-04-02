@@ -13,9 +13,10 @@ export default {
 
     template:
         `<section>
-            <p>{{ Fname }}</p>
-            <p>{{ Lname }}</p>
-            <p>{{ Position }}</p>
+            <p>{{ tbl_user.user_fname }}</p>
+            <p>{{ tbl_user.user_lname }}</p>
+            <p>{{ tbl_user.position }}</p>
+            <p>Test</p>
         </section>`,
 
     created: function() {
