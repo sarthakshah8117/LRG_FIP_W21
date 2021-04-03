@@ -15,7 +15,16 @@
             font-family: $header-font-family;
             text-align: center;
             &::after {
-                content: " Referee?";
+                content: " Members";
+                color: $main-red;
+            }
+        }
+        .membershipTitle2 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Goals";
                 color: $main-red;
             }
         }
@@ -39,7 +48,16 @@
             font-family: $header-font-family;
             text-align: center;
             &::after {
-                content: " Referee?";
+                content: " Members";
+                color: $main-red;
+            }
+        }
+        .membershipTitle2 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Goals";
                 color: $main-red;
             }
         }
@@ -63,7 +81,16 @@
             font-family: $header-font-family;
             text-align: center;
             &::after {
-                content: " Referee?";
+                content: " Members";
+                color: $main-red;
+            }
+        }
+        .membershipTitle2 {
+            color: $main-font-colour;
+            font-family: $header-font-family;
+            text-align: center;
+            &::after {
+                content: " Goals";
                 color: $main-red;
             }
         }
