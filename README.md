@@ -1,7 +1,7 @@
 # London Referees Group FIP
 
 ### Description
-This is a website for the London Referees Group
+This is a website for the London Referees Group. The LRG is a non-profit organization of more than 225 hockey referees that acts as a resource for hockey officials in the City of London and surrounding area.
 
 ### Prerequisites
 - Web Browser
