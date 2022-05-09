@@ -11,7 +11,7 @@ This is a website for the London Referees Group. The goal of the site is to prom
 1. Project Manager - Sarthak Shah
 2. Front-End Dev - Liam Yancy
 3. Back-End Dev - Jaskaran
-4. Designer - John Wood
+4. Designer - sarthak shah
 5. Motion Designer - Sabnit
 
 ### Roadmap
